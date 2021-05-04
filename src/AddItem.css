@@ -1,0 +1,48 @@
+.addItem{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    height: 600px;
+    background: url("https://i.pinimg.com/736x/cb/f1/7c/cbf17c549937534663732f5f0230f6cb.jpg") center no-repeat;
+    background-size: cover;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.addItem> h1{
+    text-align: center;
+    font-size: 2rem;
+    color:white; 
+    font-weight: 600;
+}
+.addItem__input{
+    text-align: center;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.addItem__input> input{
+    padding: 10px;
+    outline-width: 0;
+    height: 23px;
+    width: 50%;
+    border: none;
+    max-width: 600px; 
+    font-size: 1.3rem;
+}
+
+.addItem__input> button{
+    padding: 10px;
+    outline-width: 0;
+    height: 45px;
+    width: 15%;
+    border: none;
+    max-width: 600px; 
+    background-color: #e6032a;
+    color: floralwhite;
+    font-size: 1.3rem;
+}
+
+.addItem__todoList{
+    text-align: center;
+}
